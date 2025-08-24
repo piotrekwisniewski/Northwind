@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+
+# Marked Python as a main language
+*.sql linguist-language=SQL
+
+
+# Ignore HTML during language detection
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
